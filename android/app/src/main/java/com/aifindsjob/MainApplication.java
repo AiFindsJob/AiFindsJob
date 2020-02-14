@@ -27,7 +27,7 @@ public class MainApplication extends Application implements ReactApplication {
           // packages.add(new MyReactNativePackage());
           return packages;
         }
-
+        
         @Override
         protected String getJSMainModuleName() {
           return "index";
@@ -45,7 +45,7 @@ public class MainApplication extends Application implements ReactApplication {
     SoLoader.init(this, /* native exopackage */ false);
     initializeFlipper(this); // Remove this line if you don't want Flipper enabled
   }
-
+ 
   /**
    * Loads Flipper in React Native templates.
    *
